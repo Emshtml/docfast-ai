@@ -1,32 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>DocFast AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DocFast AI — Gere Documentos Profissionais em Segundos</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<div class="container">
+<header class="hero">
 
 <h1>DocFast AI</h1>
 
-<p>Gerador automático de documentos</p>
+<p>
+Crie contratos, declarações e notificações profissionais em segundos usando inteligência artificial.
+</p>
+
+<a class="cta" href="#gerador">Gerar Documento Agora</a>
+
+</header>
+
+<section class="benefits">
+
+<h2>Por que usar o DocFast AI?</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>⚡ Instantâneo</h3>
+<p>Gere documentos completos em poucos segundos.</p>
+</div>
+
+<div class="card">
+<h3>📄 Profissional</h3>
+<p>Modelos estruturados para contratos e documentos formais.</p>
+</div>
+
+<div class="card">
+<h3>💰 Econômico</h3>
+<p>Evite custos com modelos jurídicos caros.</p>
+</div>
+
+<div class="card">
+<h3>🌎 Online</h3>
+<p>Acesse de qualquer lugar sem instalar nada.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gerador" class="generator">
+
+<h2>Gerar Documento</h2>
 
 <select id="tipo">
-<option value="contrato">Contrato de aluguel</option>
-<option value="notificacao">Notificação</option>
+<option value="contrato">Contrato de Aluguel</option>
+<option value="notificacao">Notificação Extrajudicial</option>
 <option value="declaracao">Declaração</option>
 </select>
 
-<textarea id="dados" placeholder="Digite os dados"></textarea>
+<textarea id="dados" placeholder="Digite as informações necessárias..."></textarea>
 
 <button onclick="gerar()">Gerar Documento</button>
 
 <pre id="resultado"></pre>
 
+</section>
+
+<section class="pricing">
+
+<h2>Planos</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Plano Básico</h3>
+<p>R$19 por documento</p>
 </div>
+
+<div class="card destaque">
+<h3>Plano PRO</h3>
+<p>R$39 / mês</p>
+<p>Documentos ilimitados</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 DocFast AI</p>
+<p>Gerador automático de documentos com inteligência artificial.</p>
+
+</footer>
 
 <script src="script.js"></script>
 
