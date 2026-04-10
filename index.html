@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DocFast AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>DocFast AI</h1>
+
+<p>Gerador automático de documentos</p>
+
+<select id="tipo">
+<option value="contrato">Contrato de aluguel</option>
+<option value="notificacao">Notificação</option>
+<option value="declaracao">Declaração</option>
+</select>
+
+<textarea id="dados" placeholder="Digite os dados"></textarea>
+
+<button onclick="gerar()">Gerar Documento</button>
+
+<pre id="resultado"></pre>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
